@@ -1,0 +1,74 @@
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-around;
+}
+.header_logo {
+    width: 65px;
+    height: 61px;
+}
+
+.header {
+    display: flex;
+}
+.header_list {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+.header_list li {
+    margin-right: 50px;
+}
+
+.header_list li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #152B29;
+}
+
+.header_langs {
+    display: flex;
+    align-items: center;
+}
+
+.header_langs li {
+    margin-right: 10px;
+}
+
+.header_lang_active {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #005346;
+    text-decoration: none;
+}
+
+.header_lang_noactive {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #92A09E;
+    text-decoration: none;
+}
+
+.header_phone {
+    display: flex;
+    align-items: center;
+}
+
+.header_phone img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.header_soc {
+    display: flex;
+    align-items: center;
+}
+
+.header_soc img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
